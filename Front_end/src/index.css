@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+br {
+    user-select: none;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: Kdam;
+    src: url(./font/KdamThmorPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: Amaranth;
+    src: url(./font/Amaranth-Regular.ttf);
+}
+
+@font-face {
+    font-family: Saira;
+    src: url(./font/SairaSemiCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: Taylor;
+    src: url(./font/TaylorSans-Regular.ttf);
+}
