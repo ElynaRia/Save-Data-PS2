@@ -6,6 +6,7 @@ const hostname = import.meta.env.VITE_API;
 
 
 export default function PageSaveGame(props) {
+    axios.defaults.withCredentials = true;
     const [zipSize, setZipSize] = useState(null);
     const [dateZip, setdDateZip] = useState(null);
     const [count, setcount] = useState(0);

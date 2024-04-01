@@ -19,7 +19,10 @@ connect(process.env.MONGODB_URI)
 
 
 // middleware
-app.use(cors());
+app.use(cors({
+    origin: ["https://save-data-ps2.vercel.app"],
+    credentials: true
+}));
 app.use(json());
 app.use('/api', router);
 app.listen(4000);
